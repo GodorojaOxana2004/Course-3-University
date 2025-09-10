@@ -137,7 +137,7 @@ chmod +x backup.sh
 ```
 - Runs the script with a specific backup destination `/home/user/backups`.
 - The backup will be stored in this directory instead of `/backup`.
-- ![img](images\4.png)
+- ![img](images/4.png)
 
 ### 5. Checking Contents of Backup Archive
 ```bash
