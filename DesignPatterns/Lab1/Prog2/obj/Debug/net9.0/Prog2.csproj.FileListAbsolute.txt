@@ -1,0 +1,15 @@
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.AssemblyInfoInputs.cache
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.AssemblyInfo.cs
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.csproj.CoreCompileInputs.cache
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.sourcelink.json
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\bin\Debug\net9.0\Prog2.exe
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\bin\Debug\net9.0\Prog2.deps.json
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\bin\Debug\net9.0\Prog2.runtimeconfig.json
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\bin\Debug\net9.0\Prog2.dll
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\bin\Debug\net9.0\Prog2.pdb
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.dll
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\refint\Prog2.dll
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.pdb
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\Prog2.genruntimeconfig.cache
+D:\Course-3-University\DesignPatterns\Lab1\Prog2\obj\Debug\net9.0\ref\Prog2.dll
