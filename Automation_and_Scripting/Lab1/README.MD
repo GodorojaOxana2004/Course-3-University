@@ -73,10 +73,10 @@ Backup will be saved in `/backup`.
 ```bash
 nano backup.sh
 ```
-![img](\images\1.png)
+![img](images/1.png)
 - You can write the script logic and save it here.
   
-![img](\images\2.png)
+![img](images/2.png)
 
 ---
 
@@ -121,7 +121,7 @@ chmod +x backup.sh
 ```
 - `chmod` changes file permissions.
 - `+x` makes the file executable, allowing it to be run as a program.
-- ![img](\images\3.png)
+- ![img](images/3.png)
 
 ### 3. Running the Script with Default Destination
 ```bash
@@ -137,7 +137,7 @@ chmod +x backup.sh
 ```
 - Runs the script with a specific backup destination `/home/user/backups`.
 - The backup will be stored in this directory instead of `/backup`.
-- ![img](\images\4.png)
+- ![img](images/4.png)
 
 ### 5. Checking Contents of Backup Archive
 ```bash
@@ -148,8 +148,8 @@ tar -tzf /backup/backup_2025-09-10.tar.gz
 - `-z` tells tar the archive is compressed with gzip.
 - `-f` specifies the archive file name.
 - This command lets you verify that all files were correctly backed up.
-- ![img](\images\5.png)
-- ![img](\images\6.png)
+- ![img](images/5.png)
+- ![img](images/6.png)
 
 ### 6. Optional: Removing Old Backups
 ```bash
