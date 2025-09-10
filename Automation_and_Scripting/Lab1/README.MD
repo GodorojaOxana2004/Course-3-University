@@ -73,10 +73,10 @@ Backup will be saved in `/backup`.
 ```bash
 nano backup.sh
 ```
-![img](/images/1.png)
+![img](images/1.png)
 - You can write the script logic and save it here.
   
-![img](/images/2.png)
+![img](images/2.png)
 
 ---
 
