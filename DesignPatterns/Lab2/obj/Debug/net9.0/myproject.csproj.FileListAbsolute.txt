@@ -1,0 +1,15 @@
+D:\Course-3-University\DesignPatterns\Lab2\bin\Debug\net9.0\myproject.exe
+D:\Course-3-University\DesignPatterns\Lab2\bin\Debug\net9.0\myproject.deps.json
+D:\Course-3-University\DesignPatterns\Lab2\bin\Debug\net9.0\myproject.runtimeconfig.json
+D:\Course-3-University\DesignPatterns\Lab2\bin\Debug\net9.0\myproject.dll
+D:\Course-3-University\DesignPatterns\Lab2\bin\Debug\net9.0\myproject.pdb
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.AssemblyInfoInputs.cache
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.AssemblyInfo.cs
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.csproj.CoreCompileInputs.cache
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.sourcelink.json
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.dll
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\refint\myproject.dll
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.pdb
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\myproject.genruntimeconfig.cache
+D:\Course-3-University\DesignPatterns\Lab2\obj\Debug\net9.0\ref\myproject.dll
