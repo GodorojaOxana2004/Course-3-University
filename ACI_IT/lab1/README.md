@@ -24,27 +24,27 @@
 1. Скачала [VirtualBox](https://www.virtualbox.org/wiki/Downloads).  
 
 2. Установила с параметрами по умолчанию.  
-![img](/images/2.png)
+![img](images/2.png)
 ### 2. Подготовка ISO
 - Скачала Ubuntu Desktop (например, 22.04 LTS).  
-![img](/images/1.png)
+![img](images/1.png)
 ### 3. Создание ВМ
 - Имя: `UbuntuVB`.  
 - Тип: Linux, версия: Ubuntu (64-bit).  
 - RAM: 2048–4096 МБ.  
 - Диск: VDI, динамический, 30–50 ГБ.  
   
-![img](/images/3.png)
+![img](images/3.png)
 
 ### 4. Настройка
 - CPU: 2 ядра+.  
 - Видео: 128 МБ, включить 3D.  
 - Подключила ISO в Storage.  
-![img](/images/4.png)
+![img](images/4.png)
 
 ### 5. Запуск и установвка Ubuntu
 Запускаю виртуальную машину и графический установщик. 
-![img](/images/5.png)
+![img](images/5.png)
 
 ---
 
