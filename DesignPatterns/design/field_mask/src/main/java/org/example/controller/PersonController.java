@@ -15,8 +15,8 @@ public class PersonController {
 
     public PersonController() {
         repo.addPerson(new Person(1, "Alice", 2500.5f, Role.ADMIN, true));
-        repo.addPerson(new Person(2, "Bob", 1800.0f, Role.USER, false));
-        repo.addPerson(new Person(3, "Alice", 3000.0f, Role.USER, true));
+        repo.addPerson(new Person(2, "BigBob", 1800.0f, Role.USER, false));
+        repo.addPerson(new Person(3, "Ketrin", 3000.0f, Role.USER, true));
     }
 
     @GetMapping("/people")

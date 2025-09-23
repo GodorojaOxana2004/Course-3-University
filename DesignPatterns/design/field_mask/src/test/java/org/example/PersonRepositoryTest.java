@@ -15,8 +15,8 @@ public class PersonRepositoryTest {
     void setup() {
         repo = new PersonRepository();
         repo.addPerson(new Person(1, "Alice", 2500.5f, Role.ADMIN, true));
-        repo.addPerson(new Person(2, "Bob", 1800.0f, Role.USER, false));
-        repo.addPerson(new Person(3, "Alice", 3000.0f, Role.USER, true));
+        repo.addPerson(new Person(2, "BigBob", 1800.0f, Role.USER, false));
+        repo.addPerson(new Person(3, "Ketrin", 3000.0f, Role.USER, true));
     }
 
     @Test
@@ -27,7 +27,7 @@ public class PersonRepositoryTest {
 
     @Test
     void testFindByName_NotFound() {
-        List<Person> result = repo.findByName("Charlie");
+        List<Person> result = repo.findByName("BonBon");
         assertTrue(result.isEmpty());
     }
 }
