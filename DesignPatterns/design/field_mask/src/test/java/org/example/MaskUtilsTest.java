@@ -4,6 +4,18 @@ import org.example.mask.FieldMask;
 import org.example.mask.MaskUtils;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+// тесты:
+// 1) testCombineOr()
+//    - проверяяет работу метода combine (логическое ИЛИ)
+//    - создаются две маски m1 и m2
+//    - итоговая маска должна показывать поля, если они включены хотя бы в одной из масок
+//    - через assertTrue / assertFalse проверяются результаты
+// 2) testCombineAnd()
+//    - проверяет работу метода combineAnd (логическое И)
+//    - итоговая маска должна показывать поле только если оно включено в обеих масках
+// 3) testInvert()
+//    - проверяет работу метода invert (инверсия)
+//    - все true должны стать false, а false — true
 
 public class MaskUtilsTest {
     @Test

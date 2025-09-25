@@ -1,6 +1,14 @@
 package org.example.mask;
 
 import org.example.model.Person;
+// Его задача — напечатать объект Person в консоль,
+// но только с теми полями, которые разрешены "маской" (FieldMask).
+//
+// Метод print(Person p, FieldMask mask):
+// - создаёт строку с фигурными скобками { ... }
+// - проверяет у маски, какие поля разрешено показывать (showId, showName и т.д.)
+// - если флаг = true, то добавляет соответствующее поле из Person в строку
+// - в конце выводит получившийся текст через System.out.println()
 
 public class MaskPrinter {
     public static void print(Person p, FieldMask mask) {

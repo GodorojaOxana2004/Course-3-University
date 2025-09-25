@@ -2,6 +2,10 @@ package org.example.model;
 
 import org.example.model.Role;
 
+// Класс содержит конструктор для инициализации полей
+// и геттеры (getId, getName, getSalary, getRole, isActive) для доступа к ним
+// Сеттеров нет — объект Person в текущем виде "только для чтения"
+
 public class Person {
     private int id;
     private String name;

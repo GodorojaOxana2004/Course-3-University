@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// REST-контроллер Spring, который обрабатывает запросы к /people,
+// и возвращает список людей из репозитория (с фильтрацией по имени, если передан параметр)
+
+
 @RestController
 public class PersonController {
     private final PersonRepository repo = new PersonRepository();

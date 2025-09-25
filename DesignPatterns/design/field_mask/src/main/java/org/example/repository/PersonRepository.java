@@ -4,6 +4,17 @@ import org.example.model.Person;
 import java.util.ArrayList;
 import java.util.List;
 
+// Имитирую работу базы данных, используя список (ArrayList).
+// какие поля имеются:
+// - people — список объектов Person, в котором хранятся все добавленные пользователи
+// методы:
+// - addPerson(Person person) — добавляет нового человека в список
+// - findByName(String name) — ищет людей по имени:
+//      • если name = null или пустая строка -> возвращает весь список
+//      • иначе проходит по списку и возвращает только тех, у кого имя совпадает с заданным
+//
+// PersonRepository служит слоем доступа к данным (DAO)
+
 public class PersonRepository {
     private final List<Person> people = new ArrayList<>();
 

@@ -8,6 +8,22 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
+// поле:
+// - repo — экземпляр PersonRepository, который создаётся заново перед каждым тестом (@BeforeEach)
+//
+// методы:
+// 1) setup()
+//    - выполняется перед каждым тестом
+//    - создаёт новый репозиторий и добавляет три объекта Person (Alice, BigBob, Ketrin)
+// 2) testFindByName_Found()
+//    - проверяет метод findByName при поиске существующего имени
+//    - ожидается, что найден список людей с именем "Alice"
+//    - assertEquals проверяет, что размер списка равен ожидаемому 
+// 3) testFindByName_NotFound()
+//    - проверяет метод findByName при поиске несуществующего имени
+//    - ожидается пустой список
+//    - assertTrue проверяет, что список действительно пустой
+
 public class PersonRepositoryTest {
     private PersonRepository repo;
 
@@ -22,7 +38,7 @@ public class PersonRepositoryTest {
     @Test
     void testFindByName_Found() {
         List<Person> result = repo.findByName("Alice");
-        assertEquals(2, result.size());
+        assertEquals(1, result.size());
     }
 
     @Test
