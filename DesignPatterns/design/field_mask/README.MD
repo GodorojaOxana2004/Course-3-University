@@ -59,7 +59,7 @@ src/
 ## Тестирование
 
 Тесты находятся в `src/test/java/org/example`.
-Запуск (пример для Maven):
+Запуск:
 
 ```bash
 mvn test
