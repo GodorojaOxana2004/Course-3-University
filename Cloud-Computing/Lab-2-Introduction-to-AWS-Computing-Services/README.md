@@ -448,11 +448,11 @@ sudo mv /tmp/contact.html /usr/share/nginx/html/
 ls -l /usr/share/nginx/html
 ```
 
-![img](/images/36.png)
+![img](images/36.png)
 
 Затем я открыла браузер и перешла по адресу `[http://<Public-IP>](http://18.198.55.226)`. Мой статический веб-сайт был успешно доступен, и я могла переходить между страницами.
 
-![img](/images/37.png)
+![img](images/37.png)
 
 ---
 
