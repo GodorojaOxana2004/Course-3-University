@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.stream.Collectors;
+import com.example._1_lab.mask.FieldMask;
 
 // REST-контроллер Spring, который обрабатывает запросы к /people,
 // и возвращает список людей из репозитория (с фильтрацией по имени, если передан параметр)
@@ -24,10 +25,23 @@ public class PersonController {
         repo.addPerson(new Person(3, "Ketrin", 3000.0f, Role.USER, true));
     }
 
+    @GetMapping("/people/masked")
+    public List<PersonDTO> getPeopleWithMask(
+            @RequestParam(required = false) String name,
 
-    @GetMapping("/people")
-    public List<PersonDTO> getPeople(@RequestParam(required = false) String name) {
+            @RequestParam(defaultValue = "true") boolean id,
+            @RequestParam(defaultValue = "true") boolean nameField,
+            @RequestParam(defaultValue = "true") boolean salary,
+            @RequestParam(defaultValue = "true") boolean role,
+            @RequestParam(defaultValue = "true") boolean active
+    ) {
         List<Person> list = repo.findByName(name);
-        return list.stream().map(PersonDTO::new).collect(Collectors.toList());
+
+        FieldMask mask = new FieldMask(id, nameField, salary, role, active);
+
+        return list.stream()
+                .map(p -> new PersonDTO(p, mask))
+                .collect(Collectors.toList());
     }
+
 }
