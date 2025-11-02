@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Static Website - Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>☁️ Amazon S3 Static Website</h1>
+            <p class="subtitle">Лабораторная работа №4 - Cloud Computing</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Добро пожаловать!</h2>
+            <p class="hero-text">Этот веб-сайт размещен на Amazon S3 с использованием Static Website Hosting</p>
+            <div class="badge">
+                <span class="badge-icon">✓</span>
+                <span>Развернуто успешно</span>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3>Быстрое развертывание</h3>
+                <p>Настройка и публикация статического сайта за считанные минуты без необходимости управления серверами</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">💪</div>
+                <h3>Высокая надежность</h3>
+                <p>Amazon S3 обеспечивает 99.999999999% (11 девяток) надежности хранения данных</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📈</div>
+                <h3>Автомасштабирование</h3>
+                <p>Автоматическая обработка любого количества трафика без настройки инфраструктуры</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Экономичность</h3>
+                <p>Оплата только за использованное хранилище и переданные данные</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Безопасность</h3>
+                <p>Гибкие политики доступа, шифрование данных и интеграция с AWS IAM</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Глобальная доступность</h3>
+                <p>Интеграция с CloudFront CDN для быстрой доставки контента по всему миру</p>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>Технические детали</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Сервис:</strong>
+                    <span>Amazon S3</span>
+                </div>
+                <div class="info-item">
+                    <strong>Тип хостинга:</strong>
+                    <span>Static Website Hosting</span>
+                </div>
+                <div class="info-item">
+                    <strong>Регион:</strong>
+                    <span>us-east-1</span>
+                </div>
+                <div class="info-item">
+                    <strong>Storage Class:</strong>
+                    <span>S3 Standard</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="code-section">
+            <h2>Пример команды развертывания</h2>
+            <div class="code-block">
+                <code>aws s3 sync website/ s3://cc-lab4-web-k07/ --acl public-read</code>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cloud Computing Lab 4 | Powered by Amazon S3</p>
+            <p class="footer-links">
+                <a href="https://aws.amazon.com/s3/" target="_blank">AWS S3 Documentation</a> |
+                <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html" target="_blank">Static Website Hosting</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
