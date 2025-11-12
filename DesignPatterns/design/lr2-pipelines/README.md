@@ -10,30 +10,43 @@
 # Структура проекта (важные файлы)
 
 ```
-lr2-pipelines-java/
-├─ pom.xml
-├─ src/main/java/com/example/pipeline/
-│  ├─ Main.java
-│  ├─ Pipeline.java
-│  ├─ IPipelineStep.java
-│  ├─ AbstractPipelineStep.java
-│  ├─ ContextUtils.java
-│  ├─ introspect/Introspection.java
-│  ├─ singleton/CommonSteps.java
-│  ├─ decorators/LoggingDecorator.java
-│  ├─ decorators/TimingDecorator.java
-│  ├─ visitor/IPipelineVisitor.java
-│  ├─ visitor/PrintVisitor.java
-│  ├─ steps/TrimStep.java
-│  ├─ steps/LowercaseStep.java
-│  ├─ steps/ReplaceStep.java
-│  ├─ steps/WordCountStep.java
-│  └─ steps/StopOnProfanityStep.java
-└─ src/main/java/com/example/pipeline/context/
-   ├─ TextContext.java
-   └─ AuditContext.java
-
-src/test/java/.../PipelineTest.java
+├───.idea
+├───src
+│   ├───main
+│   │   └───java
+│   │       └───com
+│   │           └───example
+│   │               └───pipeline
+│   │                   ├───context
+│   │                   ├───decorators
+│   │                   ├───introspect
+│   │                   ├───singleton
+│   │                   ├───steps
+│   │                   └───visitor
+│   └───test
+│       └───java
+│           └───com
+│               └───example
+│                   └───pipeline
+└───target
+    ├───classes
+    │   └───com
+    │       └───example
+    │           └───pipeline
+    │               ├───context
+    │               ├───decorators
+    │               ├───introspect
+    │               ├───singleton
+    │               ├───steps
+    │               └───visitor
+    ├───generated-sources
+    │   └───annotations
+    ├───generated-test-sources
+    │   └───test-annotations
+    └───test-classes
+        └───com
+            └───example
+                └───pipeline
 ```
 
 ---
@@ -85,7 +98,7 @@ src/test/java/.../PipelineTest.java
 - **Visitor** — интерфейс `visitor/IPipelineVisitor.java` и простой `PrintVisitor` для демонстрации `accept(...)`.
 
 ### Частично / не реализовано (честно)
-- **Демонстрация работы с 2 разными видами контекста** — в коде есть `TextContext` и `AuditContext` (audit — вспомогательный объект внутри текстового контекста). Но демонстрация двух *отдельных* pipeline`ов с разными TContext (например `TextContext` и `NumericContext`) в `Main` пока не сделана. Это легко добавить: например, создать `NumericContext` и реализовать шаги `MultiplyStep`, `ClampStep` и показать второй pipeline. Могу добавить, если нужно.
+- **Демонстрация работы с 2 разными видами контекста** — в коде есть `TextContext` и `AuditContext` (audit — вспомогательный объект внутри текстового контекста). Но демонстрация двух *отдельных* pipeline`ов с разными TContext (например `TextContext` и `NumericContext`) в `Main` пока не сделана. Это легко добавить: например, создать `NumericContext` и реализовать шаги `MultiplyStep`, `ClampStep` и показать второй pipeline.
 
 ---
 

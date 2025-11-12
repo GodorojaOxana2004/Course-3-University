@@ -12,13 +12,13 @@ import java.util.Set;
 public class Main {
     public static void main(String[] args) {
         AuditContext audit = new AuditContext();
-        TextContext ctx = new TextContext("   Hello WORLD! sosati   ", audit);
+        TextContext ctx = new TextContext("   Hello WORLD! BADNAME   ", audit);
 
         Pipeline<TextContext> pipeline = new Pipeline<>();
         pipeline.add(CommonSteps.TRIM)
                 .add(new ReplaceStep("WORLD", "Java"))
                 .add(CommonSteps.LOWER)
-                .add(new ReplaceStep("sosati", "***"))
+                .add(new ReplaceStep("BADNAME", "***"))
                 .add(new WordCountStep());
 
     pipeline.wrapAll(s -> new LoggingDecorator<>(s));

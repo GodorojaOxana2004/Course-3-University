@@ -7,5 +7,7 @@ public class CommonSteps {
     public static final TrimStep TRIM = new TrimStep();
     public static final LowercaseStep LOWER = new LowercaseStep();
 
+
+
     private CommonSteps() {}
 }

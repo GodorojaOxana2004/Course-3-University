@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course-3-University\\DesignPatterns\\Lab2\\myproject.csproj": {}
+    "D:\\Course-3-University\\DesignPatterns\\basic\\Lab2\\myproject.csproj": {}
   },
   "projects": {
-    "D:\\Course-3-University\\DesignPatterns\\Lab2\\myproject.csproj": {
+    "D:\\Course-3-University\\DesignPatterns\\basic\\Lab2\\myproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course-3-University\\DesignPatterns\\Lab2\\myproject.csproj",
+        "projectUniqueName": "D:\\Course-3-University\\DesignPatterns\\basic\\Lab2\\myproject.csproj",
         "projectName": "myproject",
-        "projectPath": "D:\\Course-3-University\\DesignPatterns\\Lab2\\myproject.csproj",
+        "projectPath": "D:\\Course-3-University\\DesignPatterns\\basic\\Lab2\\myproject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Course-3-University\\DesignPatterns\\Lab2\\obj\\",
+        "outputPath": "D:\\Course-3-University\\DesignPatterns\\basic\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

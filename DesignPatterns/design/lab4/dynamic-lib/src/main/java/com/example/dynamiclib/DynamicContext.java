@@ -14,7 +14,6 @@ public final class DynamicContext {
         map.put(key.id(), value);
     }
 
-    @SuppressWarnings("unchecked")
     public <T> Optional<T> get(TypedKey<T> key) {
         Object v = map.get(key.id());
         if (v == null) return Optional.empty();
